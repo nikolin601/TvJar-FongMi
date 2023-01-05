@@ -21,7 +21,7 @@ jobs:
           git pull --unshallow
 
           # 自行替换要同步的上游仓库地址
-          git remote add upstream https://github.com/xinyi1984/TvJar-FongMi.git
+          git remote add upstream https://github.com/FongMi/CatVodSpider.git
           git fetch upstream
 
           # 可以自定义要同步的分支
