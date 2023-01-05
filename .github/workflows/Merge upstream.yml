@@ -23,8 +23,10 @@ jobs:
           # 自行替换要同步的上游仓库地址
           git remote add upstream https://github.com/FongMi/CatVodSpider.git
           git fetch upstream
+          git checkout master
+          git merge upstream/main
 
           # 可以自定义要同步的分支
-          git checkout -b master origin/main
-          git merge upstream/main
-          git pull origin main
+           # git checkout -b master origin/main
+           # git merge upstream/main
+          git push origin main
