@@ -26,5 +26,5 @@ jobs:
 
           # 可以自定义要同步的分支
           git checkout -b master origin/main
-          git merge --no-edit upstream/main
-          git push origin main
+          git merge  upstream/main
+          git pull origin main
