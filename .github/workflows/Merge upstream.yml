@@ -25,6 +25,6 @@ jobs:
           git fetch upstream
 
           # 可以自定义要同步的分支
-          git checkout -b master origin/yyds
+          git checkout -b master origin/main
           git merge --no-edit upstream/main
-          git push origin yyds
+          git push origin main
